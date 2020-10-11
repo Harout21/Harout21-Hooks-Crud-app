@@ -1,0 +1,34 @@
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+#cars {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 80%;
+    margin-left:100px;
+}
+
+#cars td, #cars th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+#cars tr {
+    text-align: left;
+    background-color: gray;
+}
+.active{
+   color: red ;
+}
+
+.modal {
+    width: 30%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    z-index: 22;
+}

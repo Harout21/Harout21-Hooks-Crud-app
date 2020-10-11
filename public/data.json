@@ -1,0 +1,57 @@
+[
+  {
+    "brand":"chevrolet chevelle malibu",
+    "id":0,
+    "Horsepower":130,
+    "Origin":"USA",
+    "active": false
+  },
+  {
+    "brand":"buick skylark 320",
+    "id":1,
+    "Horsepower":165,
+    "Origin":"USA",
+    "active": false
+  },
+  {
+    "brand":"plymouth satellite",
+    "id":2,
+    "Horsepower":150,
+    "Origin":"USA",
+    "active": false
+  },
+  {
+    "brand":"amc rebel sst",
+    "id":3,
+    "Horsepower":150,
+    "Origin":"USA",
+    "active": false
+  },
+  {
+    "brand":"ford torino",
+    "id":4,
+    "Horsepower":140,
+    "Origin":"USA",
+    "active": false
+  },
+  {
+    "brand":"ford galaxie 500",
+    "id":5,
+    "Horsepower":198,
+    "Origin":"USA",
+    "active": false
+  },
+  {
+    "brand":"chevrolet impala",
+    "id":6,
+    "Horsepower":220,
+    "Origin":"USA",
+    "active": false
+  },
+  {
+    "brand":"plymouth fury iii",
+    "id":7,
+    "Horsepower":215,
+    "Origin":"USA",
+    "active": false
+  }]
