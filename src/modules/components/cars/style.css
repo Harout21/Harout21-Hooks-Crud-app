@@ -3,7 +3,7 @@
     font-family: arial, sans-serif;
 }
 
-#cars {
+.cars {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     border: 3px solid #ddd;
@@ -11,13 +11,13 @@
     margin-left:100px;
 }
 
-#cars td, #cars th {
+.cars td, .cars th {
     border: 1px solid #ddd;
     padding: 8px;
 }
 
 
-#cars tr {
+.cars tr {
     text-align: left;
     background-color: gray;
 }

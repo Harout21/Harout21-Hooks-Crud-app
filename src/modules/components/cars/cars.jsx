@@ -35,7 +35,7 @@ const Cars = () => {
 
     useEffect(() => {
         dispatch(getDataAction());
-    }, []);
+    }, [dispatch]);
 
     return (
         <div>
@@ -50,12 +50,12 @@ const Cars = () => {
                 </div>
             }
             <h1 id='title'>Cars Crud</h1>
-            <table id='cars'>
+            <table className='cars'>
                 <tbody>
                 <td>Brand</td>
                 <td>Origin</td>
                 <td>Horsepower</td>
-                {cars.map(car => <tr key={car.id} className={car.id === activeRow ? 'active':''} onClick={()=>handleActiveRow(car)}>
+                {cars.map((car,i) => <tr key={i} className={car.id === activeRow ? 'active':''} onClick={()=>handleActiveRow(car)}>
                         <td>{car.brand}</td>
                         <td>{car.Origin}</td>
                         <td>{car.Horsepower}
@@ -64,7 +64,6 @@ const Cars = () => {
                         </td>
                     </tr>
                 )}
-
                 </tbody>
             </table>
         </div>
